@@ -10,7 +10,7 @@
   <form action="adminlogic.php" method="POST" enctype="multipart/form-data">
         <div >
             <label>Food Title</label>
-            <p>hii</p>
+            
             <input type="text" name="food_name"/>
         </div>
     <div>
@@ -19,6 +19,7 @@
     </div>
     <div>
         <label>Food Price</label>
+        <p>hello</p>
         <input type="text" name="price"/>
     </div>
     <div>
