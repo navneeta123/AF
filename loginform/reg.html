@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>login form for practice</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="registration.js"></script>
+</head>
+
+<body>
+    <input type="button" name="btnregistration" value="registration" class="btnregistration"/>
+    <input type="button" name="btnlogin" value="login" class="btnlogin"/>
+    <div class="registration">
+        <h1>registration</h1>
+        <form action="reg.php" method="POST" name="registration">
+            <input type="text" name="Rusername" id="username" placeholder="username" autocomplete="off"/>
+            <input type="password" name="Rpassword" id="password" placeholder="password" value=""/>
+            <input type="submit" name="submit" value="submit"   />
+            
+        </form>
+</div>
+<div class="login">
+    <h1>login</h1>
+    <form action="login.php" method="POST" name="login">
+            <input type="text" name="Lusername" id="username" placeholder="username" value=""/>
+            <input type="password" name="Lpassword" id="password" placeholder="password" value=""/>
+            <input type="submit" name="submit" value="submit"   />
+            
+        </form>
+</div>
+</body>
+
+</html>
