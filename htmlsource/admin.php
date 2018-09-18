@@ -19,8 +19,7 @@
     </div>
     <div>
         <label>Food Price</label>
-        <p>hello</p>
-        <p>changes this</p>
+       
         <input type="text" name="price"/>
     </div>
     <div>
