@@ -19,7 +19,7 @@
     </div>
     <div>
         <label>Food Price</label>
-       <p>kuch bhi </p>
+      
         <input type="text" name="price"/>
     </div>
     <div>
